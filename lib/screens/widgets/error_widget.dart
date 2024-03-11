@@ -22,7 +22,7 @@ class CustomErrorWidget extends StatelessWidget {
           ),
           const SizedBox(height: 15),
           Text(
-            errorMessage ?? "Error. No data found",
+            errorMessage ?? "Error. No data found!\nPlease, try again later.",
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodyLarge,
           ),
