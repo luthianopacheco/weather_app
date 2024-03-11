@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:weather_app/util/weather_utils.dart';
 
+//TODO: functionality
 class BottomNavigation extends StatefulWidget {
   const BottomNavigation({super.key});
 

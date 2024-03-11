@@ -1,16 +1,11 @@
-# weather_app
+# iOS Weather App
 
-A new Flutter project.
+Desafio de clonagem do aplicativo Clima do iOS onde foi utilizado Provider para atualização de estado, Dio para conexão e consumir dados da API e a API OpenWeather.
 
-## Getting Started
+Obs.: app em andamento.
 
-This project is a starting point for a Flutter application.
+---------------------------------------------------------------------------------------------------------------------------------------
 
-A few resources to get you started if this is your first Flutter project:
+Challenge of cloning the iOS Weather app where Provider was used for update state, Dio for connection to consuming data from the API, and the OpenWeather API.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note.: app in progress.

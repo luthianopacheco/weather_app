@@ -2,19 +2,17 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:weather_app/model/forecast.dart';
 import 'package:weather_app/model/weather.dart';
+import 'package:weather_app/util/consts.dart';
 
 ///Connection with API data model
 class WeatherAPI {
-  final String apiKey = "8da1dd1d76ecfcaa345234ccb975690c";
-
   final dio = Dio();
 
-  //{required String lat, required String lon}
   Future<WeatherModel> getWeather(
       {required double lat, required double lon}) async {
     try {
       final response = await dio.get(
-          "https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$lon&appid=$apiKey&units=metric&lang=pt_br");
+          "https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$lon&appid=$openweather_api_key&units=metric&lang=pt_br");
 
       final data = response.data;
 
@@ -29,7 +27,7 @@ class WeatherAPI {
       {required double lat, required double lon}) async {
     try {
       final response = await dio.get(
-          "https://api.openweathermap.org/data/2.5/forecast?lat=$lat&lon=$lon&appid=$apiKey&units=metric&lang=pt_br");
+          "https://api.openweathermap.org/data/2.5/forecast?lat=$lat&lon=$lon&appid=$openweather_api_key&units=metric&lang=pt_br");
 
       final data = response.data;
 
