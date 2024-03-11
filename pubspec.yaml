@@ -1,0 +1,47 @@
+name: weather_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #provider
+  provider: ^6.1.2
+
+  #connection http
+  dio: ^5.4.1
+
+  #formatter
+  intl: ^0.19.0
+
+  #geolocation
+  geolocator: ^11.0.0
+
+  #layout
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - 'assets/images/dia.jpg'
+    - 'assets/images/noite.jpg'
+    - 'assets/images/vento.jpeg'
+    - 'assets/images/pressao.jpeg'
